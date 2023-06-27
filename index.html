@@ -11,91 +11,120 @@
     <title>SideBar-Menu</title>
 </head>
 <body id="body-pd">
-    <div class="l-navbar" id="navbar">
-        <nav class="nav">
+<div class="l-navbar" id="navbar">
+    <nav class="nav">
+        <div>
+            <div class="nav__brand">
+                <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+            </div>
+            <div class="nav__list">
+                <a href="#" class="nav__link active">
+                    <span class="nav__name">Home</span>
+                </a>
+                <a href="#" class="nav__link">
+                    <span class="nav__name">service</span>
+                </a>
+                <a href="#" class="nav__link">
+                    <span class="nav__name">new</span>
+                </a>
+                <div class="nav__link collapse">
+                    <span class="nav__name">Blog</span>
+                </div>
+                <div class="nav__link collapse">
+                    <span class="nav__name">Contact</span>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="nav__link">
+            <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+            <span class="nav__name">Log Out</span>
+        </a>
+    </nav>
+</div>
+
+<h1>
+    <img src="images/img.png" width="310" height="122" style="position: absolute; top: 50px; left: 879px">
+</h1>
+
+<div class="conten-body">
+    <h3 style="padding: 0 20px; display: flex; justify-content: center"><p>Lorem ipsum dolor sit asmet?</p></h3>
+    <p class="text-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat.
+        Vestibulum auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam
+        facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi. Morbi vitae diam
+        augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend convallis. Quisque suscipit
+        maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue tristique eu. Donec vulputate odio
+        neque, sed semper turpis pellentesque a.</p>
+</div>
+
+<div class="content-container">
+    <div>
+        <b class="item-title">Lorem ipsum dolor sit amet</b>
+        <div class="square">
             <div>
-                <div class="nav__brand">
-                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
-                </div>
-                <div class="nav__list">
-                    <a href="#" class="nav__link active">
-                        <span class="nav__name">Home</span>
-                    </a>
-                    <a href="#" class="nav__link">
-                        <span class="nav__name">service</span>
-                    </a>
-                    <a href="#" class="nav__link">
-                        <span class="nav__name">new</span>
-                    </a>
-                    <div class="nav__link collapse">
-                        <span class="nav__name">Blog</span>
-                    </div>
-                    <div class="nav__link collapse">
-                        <span class="nav__name">Contact</span>
-                    </div>
-                </div>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190808143838/logsm.png"
+                     alt="Longtail boat in Thailand" class="content-image">
             </div>
 
-            <a href="#" class="nav__link">
-                <ion-icon name="log-out-outline"class="nav__icon"></ion-icon>
-                <span class="nav__name">Log Out</span>
-            </a>
-        </nav>
-    </div>
-
-    <h1>
-        <img src="images/img.png"  width="310" height="122" style="position: absolute; top: 50px; left: 879px">
-    </h1>
-
-    <div class="conten-body">
-        <h3 style="padding: 0 20px; display: flex; justify-content: center"><p>Lorem ipsum dolor sit asmet?</p></h3>
-        <p class="text-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat. Vestibulum auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi. Morbi vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend convallis. Quisque suscipit maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue tristique eu. Donec vulputate odio neque, sed semper turpis pellentesque a.</p>
-    </div>
-
-    <div class="content-container">
-        <div>
-            <b class="item-title">Lorem ipsum dolor sit amet</b>
-            <div class="square">
-                <div>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190808143838/logsm.png" alt="Longtail boat in Thailand" class="content-image">
-                </div>
-
-                <p class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
-                </p>
-            </div>
-        </div>
-        <div>
-            <b class="item-title">Lorem ipsum dolor sit amet</b>
-            <div class="square">
-                <div>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190808143838/logsm.png" alt="Longtail boat in Thailand" class="content-image">
-                </div>
-
-                <p class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
-                </p>
-            </div>
-        </div>
-        <div>
-            <b class="item-title">Lorem ipsum dolor sit amet</b>
-            <div class="square">
-                <div>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190808143838/logsm.png" alt="Longtail boat in Thailand" class="content-image">
-                </div>
-
-                <p class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
-                </p>
-            </div>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut,
+                posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam
+                porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec
+                imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus
+                bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit
+                nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in
+                metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+            </p>
         </div>
     </div>
-    <!-- === IONICONS === -->
+    <div>
+        <b class="item-title">Lorem ipsum dolor sit amet</b>
+        <div class="square">
+            <div>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190808143838/logsm.png"
+                     alt="Longtail boat in Thailand" class="content-image">
+            </div>
 
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut,
+                posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam
+                porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec
+                imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus
+                bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit
+                nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in
+                metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+            </p>
+        </div>
+    </div>
+    <div>
+        <b class="item-title">Lorem ipsum dolor sit amet</b>
+        <div class="square">
+            <div>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190808143838/logsm.png"
+                     alt="Longtail boat in Thailand" class="content-image">
+            </div>
 
-    <!-- === MAIN JS === -->
-    <script src="JS/main.js"></script>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut,
+                posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam
+                porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec
+                imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus
+                bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit
+                nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in
+                metus bibendum congue. Pellentesque ultrices vestibulum mattis.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- === IONICONS === -->
+
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+<!-- === MAIN JS === -->
+<script src="JS/main.js"></script>
 
 </body>
 </html>
