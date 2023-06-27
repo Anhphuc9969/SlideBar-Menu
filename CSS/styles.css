@@ -198,7 +198,7 @@ a {
 .content-container {
     position: absolute;
     top: 600px;
-    padding-right: 135px;
+    padding-right: 110px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
